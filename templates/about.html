@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-8 offset-md-2">
+        <div class="card">
+            <div class="card-body">
+                <h2 class="card-title">About the Model</h2>
+                <p class="card-text">
+                    This demonstration showcases a TensorFlow.js model running directly in your web browser.
+                    The model files are served from our Flask backend but all processing happens client-side,
+                    ensuring quick response times and reduced server load.
+                </p>
+                
+                <h3>Technical Details</h3>
+                <ul>
+                    <li>Backend: Flask (Python)</li>
+                    <li>Frontend: HTML, CSS, JavaScript</li>
+                    <li>Model: TensorFlow.js</li>
+                    <li>UI Framework: Bootstrap</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
